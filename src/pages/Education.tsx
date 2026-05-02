@@ -74,6 +74,10 @@ He’s a very well-educated person, explains things extremely well, and has a gr
 He’s genuinely one of the best people I’ve ever dealt with in the technical field overall.`,
       author: "Shady Ibrahim"
     },
+    {
+      text: "Dr. Belal Mohamed Hamed is one of the most outstanding instructors in Computer Science and Artificial Intelligence. He is known for his clear and engaging teaching style, with a remarkable ability to simplify complex concepts in an enjoyable way. He consistently integrates modern technologies into his teaching, making the learning experience more interactive and effective. Beyond his academic excellence, he is approachable and connects with students on a personal level, creating a supportive and motivating learning environment that encourages true understanding rather than memorization.",
+      author: "Hady Rady"
+    },
   ];
 
   const [currentSlide, setCurrentSlide] = useState(0);
