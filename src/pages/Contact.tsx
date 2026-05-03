@@ -5,6 +5,8 @@ import { Mail, Phone, ExternalLink, MapPin } from "lucide-react";
 import { FaGithub, FaLinkedin, FaKaggle, FaFacebook } from "react-icons/fa";
 import { SiOrcid } from "react-icons/si";
 import { motion } from "framer-motion";
+import { FaResearchgate } from "react-icons/fa";
+import { MdSchool } from "react-icons/md";
 
 const contacts = [
   {
@@ -50,13 +52,6 @@ const contacts = [
     isExternal: true,
   },
   {
-    label: "Kaggle",
-    value: "View Profile",
-    icon: <FaKaggle className="h-6 w-6 text-primary" />,
-    link: "https://www.kaggle.com/work",
-    isExternal: true,
-  },
-  {
     label: "Location",
     value: "Minia, Egypt",
     icon: <MapPin className="h-6 w-6 text-primary" />,
@@ -64,10 +59,18 @@ const contacts = [
     isExternal: true,
   },
   {
-    label: "Facebook",
-    value: "ẞelal A Hamed",
-    icon: <FaFacebook className="h-6 w-6 text-primary" />,
-    link: "https://www.facebook.com/share/1PUcQzJDHS/",
+    label: "Research Gate",
+    value: "Belal-Hamed",
+    icon: <FaResearchgate className="h-6 w-6 text-primary" />,
+    link: `
+https://www.researchgate.net/profile/Belal-Hamed?ev=hdr_xprf&_sg=T4i4e-nH5x_AdnFXIgNTKjPe7UlhGOxIGW-E-np8QppUGjAbztqp-PUou-H5Ec3BVYkC25KwENvLu6YTxk_qCW73&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6ImpvYk92ZXJ2aWV3IiwicGFnZSI6ImhvbWUiLCJwcmV2aW91c1BhZ2UiOiJsb2dpbiIsInBvc2l0aW9uIjoiZ2xvYmFsSGVhZGVyIn19`,
+    isExternal: true,
+  },
+    {
+    label: "Google Scholar",
+    value: "Belal Ahmed",
+    icon: <MdSchool className="h-6 w-6 text-primary" />,
+    link: "https://scholar.google.com.eg/citations?user=Dnwa9kYAAAAJ&hl=ar&oi=ao",
     isExternal: true,
   },
 ];
