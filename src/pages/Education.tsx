@@ -65,10 +65,12 @@ export default function Education() {
     {
       text: "Dr. Bilal is one of the best professors and one of the best people I've met in the field of programming. He makes you love every lecture he gives, and he uses new and modern techniques, including AI. He's always open to his students' opinions.",
       author: "Mazen Mohamed",
+      link: "https://www.linkedin.com/in/mazenmohamed2212/",
     },
     {
       text: "Dr belal is a lecturer at Minia National University He 's been known for his modern way of teaching , using ai the right way , cares about applying science rather that just memorizing .",
       author: "Anas Desoky",
+      link: "https://www.linkedin.com/in/anasdesoky/",
     },
     {
       text: `Honestly, this isn’t just a professor at college — he’s actually my friend and one of the guys.
@@ -76,10 +78,12 @@ The saying ‘the more knowledgeable someone is, the more humble they are’ tru
 He’s a very well-educated person, explains things extremely well, and has a great amount of valuable knowledge.
 He’s genuinely one of the best people I’ve ever dealt with in the technical field overall.`,
       author: "Shady Ibrahim",
+      link: "https://www.linkedin.com/in/shady-ibrahim-60196a2b2/",
     },
     {
       text: "Dr. Belal Mohamed Hamed is one of the most outstanding instructors in Computer Science and Artificial Intelligence. He is known for his clear and engaging teaching style, with a remarkable ability to simplify complex concepts in an enjoyable way. He consistently integrates modern technologies into his teaching, making the learning experience more interactive and effective. Beyond his academic excellence, he is approachable and connects with students on a personal level, creating a supportive and motivating learning environment that encourages true understanding rather than memorization.",
       author: "Hady Rady",
+      link: "https://www.linkedin.com/in/hady-rady-3b997334a/",
     },
   ];
 
@@ -194,7 +198,7 @@ He’s genuinely one of the best people I’ve ever dealt with in the technical 
                         "{testimonials[currentSlide].text}"
                       </p>
                       <a
-                        href="#"
+                        href={testimonials[currentSlide].link}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-primary font-semibold text-sm mt-auto transition-[color,transform] duration-300 ease-[cubic-bezier(0.21,0.47,0.32,0.98)] motion-safe:hover:underline motion-safe:hover:-translate-y-px"
@@ -220,7 +224,7 @@ He’s genuinely one of the best people I’ve ever dealt with in the technical 
                         "
                       </p>
                       <a
-                        href="#"
+                        href={testimonials[(currentSlide + 1) % testimonials.length].link}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-primary font-semibold text-sm mt-auto transition-[color,transform] duration-300 ease-[cubic-bezier(0.21,0.47,0.32,0.98)] motion-safe:hover:underline motion-safe:hover:-translate-y-px"
