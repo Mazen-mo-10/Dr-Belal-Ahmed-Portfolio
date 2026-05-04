@@ -34,7 +34,7 @@ export default function About() {
               asChild
             >
               <a
-                href="/Belal_Ahmed_CV 2026.pdf"
+                href="https://drive.google.com/uc?export=download&id=1RamanE_IEnj6CSKFDFe-_-8BFUimUxZR"
                 target="_blank"
                 rel="noopener noreferrer"
               >
